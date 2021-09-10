@@ -1,12 +1,16 @@
+import { Logo } from 'components/Logo'
+import { Search } from 'components/search'
+
 import styles from 'components/Header/styles'
 
 export const Header = () => {
   return (
     <>
       <header>
-        <nav>hola</nav>
+        <Logo />
+        <Search />
       </header>
-      <styles jsx={styles}></styles>
+      <style jsx>{styles}</style>
     </>
   )
 }

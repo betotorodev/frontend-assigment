@@ -3,13 +3,20 @@ import css from 'styled-jsx/css'
 import { breakpoints, colors } from 'styles/theme'
 
 export default css`
-  header {
+  div {
     display: flex;
     align-items: center;
-    max-width: 100%;
-    width: 100%;
-    height: 70px;
-    background-color: ${colors.primary};
+  }
+
+  p {
+    color: ${colors.white};
+    font-weight: light;
+    font-size: 24px;
+  }
+
+  span {
+    color: ${colors.white};
+    font-weight: bold;
   }
 
   /* @media (min-width: ${breakpoints.mobile}) {
