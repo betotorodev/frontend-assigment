@@ -8,7 +8,7 @@ export const DropDown = () => {
     <>
       <div>
         <HomeIcon />
-        <h6>Inicio</h6>
+        <h5>Inicio</h5>
         <Arrow />
       </div>
       <style jsx>{styles}</style>

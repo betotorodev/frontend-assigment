@@ -8,7 +8,7 @@ export default css`
     align-items: center;
   }
 
-  h6 {
+  h5 {
     color: ${colors.white};
   }
 

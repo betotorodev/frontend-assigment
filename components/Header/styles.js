@@ -6,10 +6,20 @@ export default css`
   header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     max-width: 100%;
     width: 100%;
     height: 70px;
+    padding: 0 40px;
     background-color: ${colors.primary};
+  }
+
+  section {
+    display: flex;
+  }
+
+  div {
+    margin: 0 50px;
   }
 
   /* @media (min-width: ${breakpoints.mobile}) {

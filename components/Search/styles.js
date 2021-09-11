@@ -10,6 +10,7 @@ export default css`
   button {
     height: 40px;
     width: 40px;
+    padding: 4px 3px;
     margin-right: 2px;
     border: none;
     background-color: ${colors.white};

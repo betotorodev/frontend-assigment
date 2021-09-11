@@ -5,7 +5,7 @@ export const Logo = () => {
   return (
     <>
       <div>
-        <LogoIcon stroke='white' />
+        <LogoIcon />
         <p>
           doc <span>red</span>
         </p>
