@@ -1,37 +1,13 @@
 # DocRed Frontend test
-Este es un simple test para determinar tus conocimientos y habilidades de Frontend.
 
-## Como empezamos?
-Haz un fork de este repositorio para trabajar en él.
-Una vez completada la tarea, envíanos la URL de tu repositorio a nuestro email.
+Para correr el proyecto empezamos instalando las depencias
 
-## Consignas
+    yarn add
+    o
+    npm install
 
-Antes que nada, lee bien las consignas. Este test debe reflejar no sólo tus conocimientos en technología, pero también tu forma de trabajar.
-Haz commit de tus cambios regularmente, esto también refleja cómo trabajas.
+Luego para correr el proyecto utilizamos
 
-En total no debería tomarte mas de 1 día, pero usa tu tiempo sabiamente.
-
-## Que debes hacer?
-
-Intenta reproducir el mock-up que encuentras en `mockup/DocRed-mockup.png` lo más cercano posible.
-Crea una version responsive del mock-up.
-Presta atención a los detalles.
-
-El trabajo final debe mostrar un artículo como en el mock-up. Esperamos que los botones sean botones y los links sean links aunque estos no lleven a ningún lado.
-
-El contenido del artículo debe ser cargado desde el archivo `mockup/article.json` dinámicamente.
-
-Se debe agregar al final de este README las instrucciones sobre cómo correr el proyecto.
-
-Tecnologías que debes usar
-----
-- ReactJS (Con Hooks preferentemente)
-- SASS (o styled-components preferentemente)
-
-Puntos extras:
-----
-- NextJS y Typescript.
-- Unit testing.
-- Linting y Prettier
-- Docker
+    yarn dev
+    o
+    npm run dev
