@@ -20,11 +20,25 @@ export default css`
   }
 
   figure {
+    position: relative;
     height: auto;
     width: 300px;
     margin-right: 15px;
     border-radius: 8px;
     overflow: hidden;
+  }
+
+  figure::before {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: 'Noticias';
+    padding: 3px 20px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 18px;
+    color: ${colors.white};
+    background-color: ${colors.primary};
   }
 
   img {
