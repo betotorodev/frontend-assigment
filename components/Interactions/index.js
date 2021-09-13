@@ -8,13 +8,13 @@ export const Interactions = () => {
   return (
     <>
       <p>
-        <Star /> 50
+        <Star /> <span>50</span>
       </p>
       <p>
-        <Comment /> 40
+        <Comment /> <span>40</span>
       </p>
       <p>
-        <Visibility /> 75
+        <Visibility /> <span>75</span>
       </p>
       <style jsx>{styles}</style>
     </>

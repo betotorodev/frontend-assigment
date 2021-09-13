@@ -11,16 +11,17 @@ export default css`
   .icons-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 1em;
   }
 
   .title-container {
-    margin-bottom: 2em;
-    border-bottom: 1px solid ${colors.grey_2};
+    padding-bottom: 1em;
+    border-bottom: 1px solid ${colors.grey_2}33;
   }
 
   figure {
     height: auto;
-    width: 40%;
+    width: 300px;
     margin-right: 15px;
     border-radius: 8px;
     overflow: hidden;
@@ -36,7 +37,7 @@ export default css`
   }
 
   section {
-    padding: 15px 20px;
+    padding: 15px 0px;
   }
 
   /* @media (min-width: ${breakpoints.mobile}) {

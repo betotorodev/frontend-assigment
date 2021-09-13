@@ -20,4 +20,8 @@ export default css`
       ${colors.gradient_1} 80%
     );
   }
+
+  h1 {
+    font-size: 24px;
+  }
 `

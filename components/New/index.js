@@ -14,7 +14,7 @@ export const New = () => {
         </figure>
         <section>
           <div className='title-container'>
-            <h3>New</h3>
+            <h3>Lorem ipsum dolor sit amet, consectetur</h3>
             <h4>Por: lorem ipsum dolor</h4>
           </div>
           <div className='icons-container'>
