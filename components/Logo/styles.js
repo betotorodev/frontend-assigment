@@ -21,9 +21,13 @@ export default css`
     font-weight: bold;
   }
 
-  /* @media (max-width: ${breakpoints.mobile}) {
-    p {
-      font-size: 16px;
+  @media (max-width: ${breakpoints.mobile}) {
+    div {
+      width: 48px;
     }
-  } */
+
+    p {
+      display: none;
+    }
+  }
 `

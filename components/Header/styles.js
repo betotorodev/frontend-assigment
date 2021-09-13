@@ -33,6 +33,10 @@ export default css`
   }
 
   @media (max-width: ${breakpoints.tablet}) {
+    header {
+      padding: 0 15px;
+    }
+
     section {
       width: 100%;
       justify-content: space-between;

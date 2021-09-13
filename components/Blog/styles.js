@@ -1,5 +1,5 @@
 import css from 'styled-jsx/css'
-import { colors } from 'styles/theme'
+import { breakpoints, colors } from 'styles/theme'
 
 export default css`
   .blog-container {
@@ -23,5 +23,11 @@ export default css`
 
   h1 {
     font-size: 24px;
+  }
+
+  @media (max-width: ${breakpoints.mobile}) {
+    .blog-image {
+      height: 300px;
+    }
   }
 `

@@ -14,6 +14,7 @@ export default css`
   }
 
   button {
+    margin: 15px 0;
     padding: 8px 20px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -39,10 +40,14 @@ export default css`
     background-color: ${colors.grey_3};
   }
 
-  /* @media (min-width: ${breakpoints.mobile}) {
-    main {
-      height: 90vh;
-      width: ${breakpoints.mobile};
+  @media (max-width: ${breakpoints.mobile}) {
+    .title-container {
+      flex-direction: column;
     }
-  } */
+
+    section {
+      width: 100%;
+      padding: 0;
+    }
+  }
 `

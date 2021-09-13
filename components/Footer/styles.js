@@ -30,16 +30,30 @@ export default css`
 
   li {
     color: ${colors.white};
+    cursor: pointer;
   }
 
   span {
     opacity: 0.5;
   }
 
-  /* @media (min-width: ${breakpoints.mobile}) {
-    main {
-      height: 90vh;
-      width: ${breakpoints.mobile};
+  @media (max-width: ${breakpoints.tablet}) {
+    footer {
+      height: auto;
     }
-  } */
+
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+      font-size: 12px;
+      margin: 10px 0;
+    }
+  }
+  @media (max-width: ${breakpoints.mobile}) {
+    li {
+      font-size: 12px;
+    }
+  }
 `

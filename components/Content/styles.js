@@ -47,4 +47,9 @@ export default css`
       width: 100%;
     }
   }
+  @media (max-width: ${breakpoints.mobile}) {
+    .content-container {
+      padding: 0 15px;
+    }
+  }
 `
