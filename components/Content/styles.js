@@ -3,11 +3,14 @@ import css from 'styled-jsx/css'
 import { breakpoints, colors } from 'styles/theme'
 
 export default css`
+  .content-container {
+    padding: 0 40px;
+    background-color: ${colors.grey};
+  }
   article {
     display: flex;
     min-height: 100vh;
-    padding: 60px 40px;
-    background-color: ${colors.grey};
+    padding: 60px 0;
   }
 
   .article-content {
