@@ -12,6 +12,7 @@ export const colors = {
   white: '#ffffff',
   grey: '#EDEBEB',
   grey_2: '#A2A2A2',
+  grey_3: '#F4F8FC',
   primary: '#1A80C7',
   secondary: '#65B32E',
   gradient_1: '#0EC9B1',
