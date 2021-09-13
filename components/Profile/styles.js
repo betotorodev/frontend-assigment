@@ -47,10 +47,9 @@ export default css`
     width: 100%;
   }
 
-  /* @media (min-width: ${breakpoints.mobile}) {
-    main {
-      height: 90vh;
-      width: ${breakpoints.mobile};
+  @media (max-width: ${breakpoints.tablet}) {
+    section {
+      display: none;
     }
-  } */
+  }
 `

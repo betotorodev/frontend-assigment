@@ -3,7 +3,8 @@ import { breakpoints } from 'styles/theme'
 
 export default css`
   div {
-    width: ${breakpoints.desktop};
+    max-width: ${breakpoints.desktop};
+    width: 100%;
     margin: 0 auto;
   }
 `

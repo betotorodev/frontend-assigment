@@ -5,6 +5,7 @@ import { breakpoints, colors } from 'styles/theme'
 export default css`
   div {
     display: flex;
+    padding: 0 10px;
   }
 
   button {
@@ -30,10 +31,10 @@ export default css`
     outline: none;
   }
 
-  /* @media (min-width: ${breakpoints.mobile}) {
-    main {
-      height: 90vh;
-      width: ${breakpoints.mobile};
+  @media (max-width: ${breakpoints.tablet}) {
+    input {
+      max-width: 400px;
+      width: 100%;
     }
-  } */
+  }
 `

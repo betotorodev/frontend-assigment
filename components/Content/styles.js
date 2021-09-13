@@ -38,10 +38,13 @@ export default css`
     background-color: ${colors.primary};
   }
 
-  /* @media (min-width: ${breakpoints.mobile}) {
-    main {
-      height: 90vh;
-      width: ${breakpoints.mobile};
+  @media (max-width: ${breakpoints.desktop}) {
+    aside {
+      display: none;
     }
-  } */
+
+    .article-content {
+      width: 100%;
+    }
+  }
 `

@@ -3,11 +3,16 @@ import css from 'styled-jsx/css'
 import { breakpoints, colors } from 'styles/theme'
 
 export default css`
+  div {
+    margin: 0;
+    width: 100%;
+  }
   footer {
     display: flex;
     align-items: center;
     width: 100%;
     height: 70px;
+    padding: 0 40px;
     background-color: ${colors.primary};
   }
 

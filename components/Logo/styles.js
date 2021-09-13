@@ -6,9 +6,11 @@ export default css`
   div {
     display: flex;
     align-items: center;
+    width: 140px;
   }
 
   p {
+    width: 100px;
     color: ${colors.white};
     font-weight: light;
     font-size: 24px;
@@ -19,10 +21,9 @@ export default css`
     font-weight: bold;
   }
 
-  /* @media (min-width: ${breakpoints.mobile}) {
-    main {
-      height: 90vh;
-      width: ${breakpoints.mobile};
+  /* @media (max-width: ${breakpoints.mobile}) {
+    p {
+      font-size: 16px;
     }
   } */
 `

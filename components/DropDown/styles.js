@@ -12,10 +12,9 @@ export default css`
     color: ${colors.white};
   }
 
-  /* @media (min-width: ${breakpoints.mobile}) {
-    main {
-      height: 90vh;
-      width: ${breakpoints.mobile};
+  @media (max-width: ${breakpoints.tablet}) {
+    div {
+      display: none;
     }
-  } */
+  }
 `

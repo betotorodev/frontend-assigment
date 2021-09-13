@@ -16,6 +16,7 @@ export default css`
 
   section {
     display: flex;
+    align-items: center;
   }
 
   .search-container {
@@ -27,10 +28,22 @@ export default css`
     justify-content: space-between;
   }
 
-  /* @media (min-width: ${breakpoints.mobile}) {
-    main {
-      height: 90vh;
-      width: ${breakpoints.mobile};
+  .menu {
+    display: none;
+  }
+
+  @media (max-width: ${breakpoints.tablet}) {
+    section {
+      width: 100%;
+      justify-content: space-between;
     }
-  } */
+    .search-container {
+      max-width: 400px;
+      width: 100%;
+      margin: 0;
+    }
+    .menu {
+      display: block;
+    }
+  }
 `

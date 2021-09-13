@@ -1,7 +1,5 @@
 import css from 'styled-jsx/css'
 
-import { breakpoints, colors, fonts } from 'styles/theme'
-
 export default css`
   div {
     display: grid;
@@ -20,11 +18,4 @@ export default css`
     position: relative;
     width: 100%;
   }
-
-  /* @media (min-width: ${breakpoints.mobile}) {
-    main {
-      height: 90vh;
-      width: ${breakpoints.mobile};
-    }
-  } */
 `

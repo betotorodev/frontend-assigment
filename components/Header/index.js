@@ -3,6 +3,7 @@ import { Logo } from 'components/Logo'
 import { Profile } from 'components/Profile'
 import { Search } from 'components/search'
 import { AppLayout } from 'components/AppLayout'
+import { Menu } from 'components/Icons/Menu'
 
 import styles from 'components/Header/styles'
 
@@ -16,6 +17,9 @@ export const Header = () => {
               <Logo />
               <div className='search-container'>
                 <Search />
+              </div>
+              <div className='menu'>
+                <Menu />
               </div>
               <DropDown />
             </section>
