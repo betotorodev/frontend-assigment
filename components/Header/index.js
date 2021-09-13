@@ -2,6 +2,7 @@ import { DropDown } from 'components/DropDown'
 import { Logo } from 'components/Logo'
 import { Profile } from 'components/Profile'
 import { Search } from 'components/search'
+import { AppLayout } from 'components/AppLayout'
 
 import styles from 'components/Header/styles'
 
@@ -9,14 +10,18 @@ export const Header = () => {
   return (
     <>
       <header>
-        <section>
-          <Logo />
-          <div>
-            <Search />
+        <AppLayout>
+          <div className='header-container'>
+            <section>
+              <Logo />
+              <div className='search-container'>
+                <Search />
+              </div>
+              <DropDown />
+            </section>
+            <Profile />
           </div>
-          <DropDown />
-        </section>
-        <Profile />
+        </AppLayout>
       </header>
       <style jsx>{styles}</style>
     </>

@@ -6,13 +6,13 @@ export const Content = () => {
     <>
       <article>
         <section className='article-content'>blog</section>
-        <section className='article-suggestions'>
+        <aside className='article-suggestions'>
           <div className='title-container'>
             <h5>Noticias relacionadas</h5>
             <div className='line'></div>
           </div>
           <Suggestions />
-        </section>
+        </aside>
       </article>
       <style jsx>{styles}</style>
     </>

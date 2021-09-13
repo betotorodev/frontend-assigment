@@ -18,8 +18,13 @@ export default css`
     display: flex;
   }
 
-  div {
+  .search-container {
     margin: 0 50px;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
   }
 
   /* @media (min-width: ${breakpoints.mobile}) {
